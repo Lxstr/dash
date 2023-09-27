@@ -1,3 +1,5 @@
+import time
+
 from dash import Dash, Input, Output, html, dcc
 from dash.dash_table import DataTable
 
@@ -216,3 +218,5 @@ def test_dvpc001_prop_check_errors_with_path(dash_duo):
             assert dash_duo.get_logs(), tc
         else:
             assert dash_duo.get_logs() == [], tc
+
+    time.sleep(0.1)
