@@ -176,7 +176,7 @@ test_cases = {
 
 
 def test_dvpc001_prop_check_errors_with_path(dash_duo):
-    app = Dash(__name__, eager_loading=True)
+    app = Dash(__name__, eager_loading=False)
 
     app.layout = html.Div([html.Div(id="content"), dcc.Location(id="location")])
 
