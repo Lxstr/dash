@@ -12,10 +12,10 @@ def read_req_file(req_type):
 
 
 setup(
-    name="dash",
+    name="autofeather-dash",
     version=main_ns["__version__"],
-    author="Chris Parmer",
-    author_email="chris@plotly.com",
+    author="Autofeather",
+    author_email="lxstr@protonmail.ch",
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
     license="MIT",
